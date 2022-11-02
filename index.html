@@ -5,16 +5,16 @@
 <h1>Proj 1</h1>
 
  <h2>"foo" that should work like `/docs/`</h2>
-- <a href="/foo/">Link with trailing slash</a><br>
-- <a href="/foo/">Link without trailing slash</a><br>
+- <a href="/foo/">Link with trailing slash</a> (has to work)<br>
+- <a href="/foo">Link without trailing slash</a> (should redirect to include trailing slash)<br>
 - <a href="/foo/subpage.html">Link with trailing slash + subpage</a><br>
 - <a href="/foo/subpage.html/">Link with trailing slash + subpage with trailing slash</a><br>
 
 <br>
 
 <h2>"bar" that should work like `/day`</h2>
-- <a href="/bar/">Link with trailing slash</a><br>
-- <a href="/bar">Link without trailing slash</a><br>
+- <a href="/bar/">Link with trailing slash</a> (ok if does not work)<br>
+- <a href="/bar">Link without trailing slash</a> (has to work)<br>
 - <a href="/bar/subpage.html">Link without trailing slash + subpage</a><br>
 - <a href="/bar/subpage.html/">Link without trailing slash + subpage with trailing slash</a><br>
 
