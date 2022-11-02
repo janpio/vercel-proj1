@@ -2,7 +2,7 @@
     "rewrites": [
         {
           "source": "/foo/:any*",
-          "destination": "https://vercel-proj2-9min.vercel.app/:any*"
+          "destination": "https://vercel-proj2.vercel.app/:any*"
         },
         {
           "source": "/bar/:any*",
