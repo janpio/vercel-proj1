@@ -1,7 +1,7 @@
 {
     "rewrites": [
         {
-          "source": "/foo",
+          "source": "/foo/",
           "destination": "https://vercel-proj2.vercel.app/"
         },
         {
