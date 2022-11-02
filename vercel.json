@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+          "source": "/foo/:any*",
+          "destination": "https://vercel-proj2-9min.vercel.app/:any*"
+        },
+        {
+          "source": "/bar/:any*",
+          "destination": "https://vercel-proj3.vercel.app/:any*"
+        }
+    ]
+}
