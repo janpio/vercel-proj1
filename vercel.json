@@ -2,15 +2,16 @@
     "rewrites": [
         {
           "source": "/foo/",
-          "destination": "https://vercel-proj2.vercel.app/"
+          "destination": "https://prisma2-docs.vercel.app/"
         },
         {
           "source": "/foo/:any*",
-          "destination": "https://vercel-proj2.vercel.app/:any*"
+          "destination": "https://prisma2-docs.vercel.app/:any"
         },
         {
           "source": "/bar/:any*",
           "destination": "https://vercel-proj3.vercel.app/:any*"
         }
+        
     ]
 }
